@@ -5,3 +5,5 @@ function minSum(arr) {
     .slice(0, arr.length/2)
     .reduce( (acc,item,index) => acc += item * arr[ arr.length - index - 1 ], 0 )
     }
+
+console.log(minSum([3,1,10,8]))
