@@ -7,3 +7,4 @@ function minSum(arr) {
     }
 
 console.log(minSum([3,1,10,8]))
+console.log('That is working')
