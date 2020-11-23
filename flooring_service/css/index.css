@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    color: #676767;
+}
+
+header {
+    background-image: linear-gradient( rgba(118, 117, 116, .8), 
+    rgba(118, 117, 117, 0.6) ), url(../img/head_background.jpeg);
+    min-height: 900px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+.icon-xox {
+    width: 100px;
+    margin-top: 60px;
+}
+.collapse {
+    display: flex;
+    justify-content: center;
+}
+.free-estimate {
+    padding-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+.banner {
+    margin-top: 20px;
+}
+
+.banner p {
+    font-size: 1.15rem;
+    color: white;
+}
+h1 {
+    font-size: 4.35rem;
+    padding: 40px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 550;
+}
+h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+.btn-call-me-back {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+.btn-call-me-back a {
+    text-decoration: none;
+    padding: 18px 30px;
+    margin: 10px;
+    border-radius: 0.12rem;
+    color: white;
+    text-align: center;
+    transition: all 0.7s;
+    background-color: #deaf6f;
+}
+.btn-call-me-back a:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.navbar-collapse .navbar-nav .nav-item a{
+    color: white;
+}
+.navbar-collapse .navbar-nav .nav-item a:hover{
+    color: orange;
+}
+ .btn-estimate a {
+    display: block;
+    color: white;
+    border: 2px solid white;
+    padding: 3px 17px;
+    margin-left: 70px;
+}
+
+ .btn-estimate a:hover {
+   text-decoration: none;
+   display: block; 
+   color: orange;
+   border: 2px solid orange;
+   padding: 3px 17px;
+   margin-left: 70px;
+}
+.top-first-section {
+    margin: auto;
+    padding: 30px 0px 40px 0px ;
+}
+.top-first-section p, h2, img {
+    margin: auto;
+    padding: 10px;
+}
+.top-first-section p {
+    font-size: 1.15rem;
+}
+.list-item .mb-1 {
+    color: #676767;
+    font-size: 1.37rem;
+    font-weight: bolder;
+}
+span {
+    color: #deaf6f;
+}
+.card {
+    border: transparent;
+}
+.services{
+    background-color: rgb(246, 250, 250);
+}
+.wood-species h2{
+    padding-top: 90px;
+}
+.wood-species div {
+
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.clock {
+    color: peachpuff;
+    font-size: 1.3rem;
+    margin-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+.clock-label {
+    color: peachpuff;
+    font-size: 1.3rem;
+    margin-right: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+.countdown-to-new-year {
+    color: rgb(202, 210, 184);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.new-year-label {
+    color: rgb(191, 205, 163);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
