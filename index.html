@@ -12,15 +12,19 @@
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light  row">
-            <a class="navbar-brand" href="#"><img src="img/andy_s_flooring.png" alt="logo" width="170px"></a>
+    <header>
+        <nav class="navigation navbar navbar-expand-lg navbar-light  row">
+            <div class="logo">
+                <a class="navbar-brand" href="#">
+                    <img src="img/andy_s_flooring.png" alt="logo" width="170px">
+                </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse row" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav row">
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services <span class="sr-only">(current)</span></a>
                     </li>
@@ -49,13 +53,52 @@
             </div>
         </nav>
         <div>
-            <p class="clock-label">Currunt time</p>
+            <!-- <p class="clock-label">Kiev</p> -->
             <p class="clock"></p>
         </div>
-        <div class="new-year"></div>
-        <div class="countdown"></div>
-        <div class="new-year-label"></div>
-        <div class="countdown-to-new-year"></div>
+        <div class="newX">
+            <div class="accordion" id="accordionExample">
+                <div class="r text-center">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="newY btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <p>Time to New Year 2021</p>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div id="year" class="year"></div>
+                            <h1>New Year Countdown</h1>
+                            <div id="countdown" class="countdown text-center">
+                                <div class="time">
+                                    <h2 id="days">00</h2>
+                                    <small>days</small>
+                                </div>
+                                <div class="time">
+                                    <h2 id="hours">00</h2>
+                                    <small>hours</small>
+                                </div>
+                                <div class="time">
+                                    <h2 id="minutes">00</h2>
+                                    <small>minutes</small>
+                                </div>
+                                <div class="time">
+                                    <h2 id="seconds">00</h2>
+                                    <small>seconds</small>
+                                </div>
+                            </div>
+                            <div class=" text-center btn-player">
+                                <a href="https://vanillawebprojects.com/projects/music-player/" target="_blink">New Year's Music</a>
+                            </div>
+                            <img src="./img/spinner.gif" alt="Loading..." id="loading" class="loading" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         <div class="banner text-center">
             <img class="icon-xox" src="img/xox.png" alt="icon_xox">
             <h1>Best Local<br> Flooring Services</h1>
@@ -150,6 +193,124 @@
                 </article>
             </div>
         </section>
+        <section>
+            <div class="wood-species-top">
+                <img class="icon-xox" src="img/xox.png" alt="icon_xox">
+                <h2 class="text-center">Hardwood Flooring Wood Species</h2>
+            </div>
+            <div class="wood-species row">
+                <div class="card card-birch col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3" style="width: 18rem;">
+                    <img src="img/hardwood _fl_w_sp/wood_species.png" class="card-img-top" alt="birch">
+                    <p>#BIRCH</p>
+                </div>
+                <div class="card card-oak col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3" style="width: 18rem;">
+                    <img src="img/hardwood _fl_w_sp/wood_species.png" class="card-img-top" alt="oak">
+                    <p>#OAK</p>
+                </div>
+                <div class="card card-walnut col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3" style="width: 18rem;">
+                    <img src="img/hardwood _fl_w_sp/wood_species.png" class="card-img-top" alt="walnut">
+                    <p>#WALNUT</p>
+                </div>
+                <div class="card card-cherry col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3" style="width: 18rem;">
+                    <img src="img/hardwood _fl_w_sp/wood_species.png" class="card-img-top" alt="cherry">
+                    <p>#CHERRY</p>
+                </div>
+            </div>
+        </section>
+        <section class="flooring-options text-center">
+            <div class="flooring-options-top text-center">
+                <img class="icon-xox" src="img/xox.png" alt="icon_xox">
+                <h2 class="text-center">Flooring Options</h2>
+                <p>From flooring materials to finishing types, our company offers a wide range of flooring <br> options
+                    and
+                    services including installation, refinishing, polishing, and repair.</p>
+            </div>
+            <div class="accordion row" id="accordionExample">
+                <div class="card col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="card-header" id="headingOne">
+                        <img src="img/flooring_options/plentiful_flooring_types.png" alt="plentiful flooring">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <p>Plentiful Flooring Types</p>
+                                <img src="img/plus.png" alt="icon plus">
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Don't know which type of flooring is better for your home or office? We can walk you through
+                            the whole process and help you choose the best option. We have the widest selection of
+                            different flooring types, from hardwood to laminated flooring.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="card-header" id="headingTwo">
+                        <img src="img/flooring_options/quality_guarantee_and_warranty.png"
+                            alt="Quality, guarantee and warranty">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                <p>Quality Guarantee & Warranty</p>
+                                <img src="img/plus.png" alt="icon plus">
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            At Andy's Flooring, we scrupulously test our materials and products, and carry out all the
+                            needed quality checks and provide a reliable warranty on any our materials and services. We
+                            strive to provide our clients with the high-quality flooring and craftsmanship.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="card-header" id="headingThree">
+                        <img src="img/flooring_options/flooring_options_and_services.png" alt="Options services">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                <p>Flooring Options & Services</p>
+                                <img src="img/plus.png" alt="icon plus">
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            We offer our services to individuals and commercial companies. We can implement any of your
+                            ideas of offer you our vision and custom designs. We work with all types of materials, and
+                            our goal is to install a new, smooth and durable floor for you.
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="card-header" id="headingFour">
+                        <img src="img/flooring_options/flooring_installation_types.png" alt="Installation types">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                <p>Flooring Installation Types</p>
+                                <img src="img/plus.png" alt="icon plus">
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            We pick the best installation type for your floors based on your needs, floor area and types
+                            of materials. We provide quality installation and maintenance consultation to ensure that
+                            your new flooring will remain durable and beautiful for many years to come.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -157,7 +318,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-    <script src="index.js"></script>    
+    <script src="index.js"></script>
+    <script src="carousel/carousel.js"></script>
+    <script src="mp3player/player.js"></script>
 </body>
 
 </html>
@@ -278,44 +441,8 @@
             </article>
         </div>
     </section>
-    <section>
-        <h2>Hardwood Flooring Wood Species</h2>
-        <div class="wood-species-list">
-            <div class="wood-species-card">
-                <p>#BIRCH</p>
-            </div>
-            <div class="wood-species-card">
-                <p>#OAK</p>
-            </div>
-            <div class="wood-species-card">
-                <p>#WALNUT</p>
-            </div>
-            <div class="wood-species-card">
-                <p>#CHERRY</p>
-            </div>
-        </div>
-    </section>
-    <section class="wood-species">
-            <h2 class="text-center">Hardwood Flooring Wood Species</h2>
-            <div class="wood-species-list">
-                <div class="wood-species-card">
-                    <img src="img/hardwood _fl_w_sp/wood_species.png" alt="Birch">
-                    <p>#BIRCH</p>
-                </div>
-                <div class="wood-species-card">
-                    <img src="img/hardwood _fl_w_sp/wood_species.png" alt="Oak">
-                    <p>#OAK</p>
-                </div>
-                <div class="wood-species-card">
-                    <img src="img/hardwood _fl_w_sp/wood_species.png" alt="Walnut">
-                    <p>#WALNUT</p>
-                </div>
-                <div class="wood-species-card">
-                    <img src="img/hardwood _fl_w_sp/wood_species.png" alt="Cherry">
-                    <p>#CHERRY</p>
-                </div>
-            </div>
-        </section> 
+    
+    
     <section id="flooring-options" class="fl-options">
         <h2>Flooring Options</h2>
         <div class="fl-options-list">

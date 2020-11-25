@@ -10,10 +10,11 @@ header {
     background-image: linear-gradient( rgba(118, 117, 116, .8), 
     rgba(118, 117, 117, 0.6) ), url(../img/head_background.jpeg);
     min-height: 900px;
-    width: auto;
+    margin: auto;
     background-size: cover;
     background-position: center;
 }
+
 .icon-xox {
     width: 100px;
     margin-top: 60px;
@@ -35,7 +36,7 @@ header {
     font-size: 1.15rem;
     color: white;
 }
-h1 {
+.banner h1 {
     font-size: 4.35rem;
     padding: 40px;
     font-family: 'Libre Baskerville', serif;
@@ -115,31 +116,22 @@ span {
 }
 .services{
     background-color: rgb(246, 250, 250);
+    padding-bottom: 50px;
 }
-.wood-species h2{
-    padding-top: 90px;
-}
-.wood-species div {
-
+.wood-species-list{
     padding: 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.clock {
-    color: peachpuff;
-    font-size: 1.3rem;
-    margin-right: 90px;
-    display: flex;
-    justify-content: flex-end;
-}
-.clock-label {
+
+/* .clock-label {
     color: peachpuff;
     font-size: 1.3rem;
     margin-right: 60px;
     display: flex;
     justify-content: flex-end;
-}
+} */
 .countdown-to-new-year {
     color: rgb(202, 210, 184);
     font-size: 3rem;
@@ -152,3 +144,181 @@ span {
     display: flex;
     justify-content: center;
 }
+.clock {
+    color: rgb(214, 214, 195);
+    max-width: 910px;
+    font-size: 1.2rem;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.clock-label {
+    color: rgb(214, 214, 195);
+    max-width: 955px;
+    font-size: 1.2rem;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.wood-species .card p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -17%;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+.wood-species .card {
+    padding: 0px;
+}
+.wood-species .card-birch {
+    filter: grayscale(1);
+}
+.wood-species .card-oak {
+    filter: sepia(75%);
+}
+.wood-species .card-walnut {
+    filter: sepia(1%);
+}
+.wood-species .card-cherry {
+    filter: saturate(2.4);
+}
+.wood-species-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.accordion .card .card-header .mb-0 .btn {
+    margin: 0px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.375rem;
+}
+.accordion .card .card-header .mb-0 .btn img {
+    width: 42px;
+    margin: 0px;
+    /* background: orangered; */
+}
+.accordion .card .card-header .mb-0 .btn p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.375rem;
+}    
+.accordion .card .card-header .mb-0 .btn h2 {
+   padding: 0px;
+}    
+
+.accordion .card .card-header .mb-0 .btn {
+    
+    border: transparent
+}
+.card-header {
+    padding: 0px;
+    background: transparent;
+}
+.flooring-options-top {
+    padding: 20px;
+
+}
+.newY {
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+    padding: 0px;
+    text-decoration: none;
+    
+}
+.newX {
+    display: flex;
+    justify-content: center;
+margin: auto;    
+}
+.year {
+    font-size: 00px;
+    z-index: -1;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    /* display: none; */
+    transform: scale(2);
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    color: rgb(78, 95, 116);;
+  }
+  .newX .accordion .r .collapse .card-body h1 {
+    margin: 0 0 5px;
+    color: rgb(32, 109, 109);
+    font-size: 4.35rem;
+    padding: 40px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+  }
+  
+  .time h2 {
+    margin: 0 0 5px;
+  }
+  
+  @media (max-width: 500px) {
+    .newX .accordion .r .collapse .card-body h1 {
+      font-size: 45px;
+    }
+  
+    .time {
+      margin: 5px;
+    }
+  
+    .time h2 {
+      font-size: 12px;
+      margin: 0;
+    }
+  
+    .time small {
+      font-size: 10px;
+    }
+  }
+  .btn-player a {
+    display: block;
+    color: rgb(32, 109, 109);
+    font-size: 2.5rem;
+    border: 2px solid rgb(32, 109, 109);
+    padding: 20px ;
+    margin-top: 70px;
+}
+
+ .btn-player a:hover {
+   text-decoration: none;
+   display: block; 
+   font-size: 2.55rem;
+   color: rgb(32, 109, 109);
+   border: 3px solid rgb(32, 109, 109);
+   padding: 20px;
+}
+  
