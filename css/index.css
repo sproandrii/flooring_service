@@ -32,10 +32,10 @@ header {
 }
 
 /* HEADER */
-.collapse {
+/* .collapse {
     display: flex;
     justify-content: center;
-}
+} */
 .free-estimate {
     padding-left: 10%;
     display: flex;
@@ -99,6 +99,11 @@ header {
    border: 2px solid orange;
    padding: 3px 17px;
    margin-left: 70px;
+}
+.navbar-collapse {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
 }
 
 /* SECTION PRE-VIEW */
