@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse row" id="navbarNav">
                 <ul class="navbar-nav row">
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#flooring-options">Flooring options</a>
@@ -95,7 +95,7 @@
     </section>
 
     <!-- #SECTION SERVICES -->
-    <section class="services container text-center">
+    <section class="services container text-center" id="services">
         <img class="icon-xox" src="img/xox.png" alt="icon">
         <h2>Services</h2>
         <div class="service-list row">
@@ -177,7 +177,7 @@
     </section>
 
     <!-- #SECTION FLOOR OPTIONS -->
-    <div class="flooring-options-top text-center">
+    <div class="flooring-options-top text-center" id="flooring-options">
         <img class="icon-xox" src="img/xox.png" alt="icon_xox">
         <h2 class="text-center">Flooring Options</h2>
         <p>From flooring materials to finishing types, our company offers a wide range of flooring <br> options
@@ -297,32 +297,35 @@
         </div>
     </div>
 
-    <!-- #SECTION ESTIMATE -->
-    <div class="form-block">
-        <div class="row">
-            <div class="col-10 col-sm-9 col-md-8 col-lg-6 col-xl-5">
-                <form id="call-me-back" action="https://formspree.io/f/xpzoregq" method="POST">
-                    <div class="call-form text-center">
-                        <img class="icon-xox" src="img/xox.png" alt="icon_xox">
-                        <h2>You Are <span>10 Minutes</span> <br> Away From Your<br> Perfect Floor</h2>
-                        <input type="text" placeholder="Enter your full name*" name="user-name" required>
-                        <input type="text" placeholder="Enter your phone number*" name="user-phone" required>
-                        <input type="text" placeholder="Enter your e-mail*" name="user-email" required>
-                        <textarea placeholder="Your message" name="message"></textarea>
-                        <input type="submit">
-                    </div>
-                </form>
+    <!-- #SECTION CALL-ME-BACK -->
+    <div class="form-block" id="call-me-back">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 col-sm-9 col-md-8 col-lg-6 col-xl-5">
+                    <form id="call-me-back" action="https://formspree.io/f/xpzoregq" method="POST">
+                        <div class="call-form text-center">
+                            <img class="icon-xox" src="img/xox.png" alt="icon_xox">
+                            <h2>You Are <span>10 Minutes</span> <br> Away From Your<br> Perfect Floor</h2>
+                            <input type="text" placeholder="Enter your full name*" name="user-name" required>
+                            <input type="text" placeholder="Enter your phone number*" name="user-phone" required>
+                            <input type="text" placeholder="Enter your e-mail*" name="user-email" required>
+                            <textarea placeholder="Your message" name="message"></textarea>
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
             </div>
+            
         </div>
     </div>
     </div>
 
     <!-- #SECTION ABOUT US -->
-    <div class="about-us-top text-center">
+    <div class="about-us-top text-center" id="about-us">
         <img class="icon-xox" src="img/xox.png" alt="icon_xox">
         <h2>Thanks For Stopping By</h2>
     </div>
-    <section class="about-us container" id="about-us">
+    <section class="about-us container">
         <div class="row">
             <div class="about-us-in col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <img src="img/thanks_for_stopping.png" alt="thanks for stopping">
@@ -374,7 +377,7 @@
     </section>
 
     <!-- #SECTION OUR WORKS -->
-    <div class="our-works-top">
+    <div class="our-works-top" id="our-works">
         <img class="icon-xox" src="img/xox.png" alt="icon_xox">
         <h2 class="text-center">Our Works</h2>
     </div>
