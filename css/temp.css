@@ -1,0 +1,121 @@
+/* .clock-label {
+    color: peachpuff;
+    font-size: 1.3rem;
+    margin-right: 60px;
+    display: flex;
+    justify-content: flex-end;
+} */
+.countdown-to-new-year {
+    color: rgb(202, 210, 184);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.new-year-label {
+    color: rgb(191, 205, 163);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.clock {
+    color: rgb(214, 214, 195);
+    max-width: 910px;
+    font-size: 1.2rem;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.clock-label {
+    color: rgb(214, 214, 195);
+    max-width: 955px;
+    font-size: 1.2rem;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.newY {
+    display: flex;
+    justify-content: center;
+    padding: 0px; 
+}
+.newX {
+    display: flex;
+    justify-content: center;
+    margin: auto;    
+}
+.year {
+    font-size: 00px;
+    z-index: -1;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    /* display: none; */
+    transform: scale(2);
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    color: rgb(78, 95, 116);;
+  }
+  .newX .accordion .r .collapse .card-body h1 {
+    margin: 0 0 5px;
+    color: rgb(32, 109, 109);
+    font-size: 4.35rem;
+    padding: 40px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+  }
+  
+  .time h2 {
+    margin: 0 0 5px;
+  }
+  @media (max-width: 500px) {
+    .newX .accordion .r .collapse .card-body h1 {
+      font-size: 45px;
+    }
+  
+    .time {
+      margin: 5px;
+    }
+  
+    .time h2 {
+      font-size: 12px;
+      margin: 0;
+    }
+  
+    .time small {
+      font-size: 10px;
+    }
+  }
+  .btn-player a {
+    display: block;
+    color: rgb(32, 109, 109);
+    font-size: 2.5rem;
+    border: 2px solid rgb(32, 109, 109);
+    padding: 20px ;
+    margin-top: 70px;
+}
+
+ .btn-player a:hover {
+   text-decoration: none;
+   display: block; 
+   font-size: 2.55rem;
+   color: rgb(32, 109, 109);
+   border: 3px solid rgb(32, 109, 109);
+   padding: 20px;
+}
