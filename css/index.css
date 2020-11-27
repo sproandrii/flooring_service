@@ -6,8 +6,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #676767;
 }
+h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(25, 23, 23);
+}
 p {
     color: #676767;
+}
+span {
+    color: #deaf6f;
 }
 header {
     background-image: linear-gradient( rgba(118, 117, 116, .8), 
@@ -23,6 +30,8 @@ header {
     width: 100px;
     margin-top: 20px;
 }
+
+/* HEADER */
 .collapse {
     display: flex;
     justify-content: center;
@@ -49,10 +58,6 @@ header {
     justify-content: center;
     color: white;
     font-weight: 550;
-}
-h2, h3 {
-    font-family: 'Libre Baskerville', serif;
-    color: rgb(25, 23, 23);
 }
 .btn-call-me-back {
     display: flex;
@@ -95,15 +100,17 @@ h2, h3 {
    padding: 3px 17px;
    margin-left: 70px;
 }
-.top-first-section {
+
+/* SECTION PRE-VIEW */
+.pre-view-top {
     margin: auto;
     padding: 30px 0px 40px 0px ;
 }
-.top-first-section p, h2, img {
+.pre-view-top p, h2, img {
     margin: auto;
     padding: 10px;
 }
-.top-first-section p {
+.pre-view-top p {
     font-size: 1.15rem;
 }
 .list-item .mb-1 {
@@ -111,9 +118,11 @@ h2, h3 {
     font-size: 1.37rem;
     font-weight: bolder;
 }
-span {
-    color: #deaf6f;
+.list-item p {
+    padding-left: 25px;
 }
+
+/* SECTION SERVICES */
 .card {
     border: transparent;
 }
@@ -243,7 +252,7 @@ span {
 .accordion .card .card-header .mb-0 .btn {
     padding:0;
 }
-/* #SECTION CALL-ME-BACK */
+/* SECTION CALL-ME-BACK */
 .call-form {
     min-height: 500px;
     background-color: white;
@@ -285,7 +294,7 @@ span {
     background-color: #deaf6f;
 }
 
-/* #SECTION ABOUT US */
+/* SECTION ABOUT US */
 .about-us-top{
     padding: 30px;
 }
@@ -304,7 +313,7 @@ span {
     margin: 0px;
 }
 
-/* #SECTION ACHIEVEMENTS */
+/* SECTION ACHIEVEMENTS */
 .achievements .achievements-top h2{
     display: flex;
     justify-content: center;
@@ -340,7 +349,7 @@ span {
    font-weight: 700;
 }
 
-/* #SECTION OUR WORKS */
+/* SECTION OUR WORKS */
 .our-works-top  {
     padding: 40px 0px 20px 0px;    
     display: flex;
