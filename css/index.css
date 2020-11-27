@@ -117,10 +117,21 @@ span {
 .card {
     border: transparent;
 }
+.card-title {
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.375rem;
+    color: #676767;
+    font-family: 'Opes Sans', sans-serif;
+}
 .services{
     background-color: rgb(246, 250, 250);
     padding-bottom: 50px;
 }
+.services h2 {
+    padding: 0px 0px 40px 0px;
+}
+
 .wood-species-list{
     padding: 40px;
     display: flex;
@@ -460,5 +471,41 @@ body {
 .about-us-in p{
     width: 90%;
     margin: 0px;
-    
+}
+
+
+/* #BLOK ACHIEVEMENTS */
+.achievements .achievements-top h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achievements-top  {
+    padding: 40px 0px 20px 0px;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.achievements-list div {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.achievements-card {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.achievements-card p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    padding: 15px;
+    font-size: 1.15rem;
+ }
+.achievements-card h3{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 3.45rem;
+   font-weight: 700;
 }
