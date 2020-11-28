@@ -101,7 +101,6 @@ header {
    margin-left: 70px;
 }
 .navbar-collapse {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
 }
@@ -135,7 +134,7 @@ header {
     margin: 0px;
     padding: 10px;
     font-size: 1.375rem;
-    color: #676767;
+    color: #444240;
     font-family: 'Opes Sans', sans-serif;
 }
 .services{
@@ -355,8 +354,11 @@ header {
 }
 
 /* SECTION OUR WORKS */
+.our-works {
+    background-color: rgb(246, 250, 250);
+}
 .our-works-top  {
-    padding: 40px 0px 20px 0px;    
+    padding: 10px 0px 20px 0px;    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -375,4 +377,56 @@ header {
 }
 .img-padding {
     padding: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show .nav-link {
+    background-color: transparent;
+    font-size: 1.15rem;
+    color: #505050;
+}
+.nav-item a {
+    color: #989592;
+    font-size: 1.15rem;
+    font-weight: lighter;
+}
+.nav-item a:hover {
+    color: #505050;
+    font-size: 1.15rem;
+    font-weight: lighter;
+}
+
+/* SECTION TESTIMONIALS */
+.testimonials {
+    background-attachment: fixed;
+    background-color: burlywood;
+    background-image: url(../img/block6.png);
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.testimonials-top .icon-xox{
+    margin-top: 40px;
+    width: 130px;
+}
+.testimonials-top h2{
+    color: white;
+    padding: 10px 0px 50px 0px;
+}
+.testimonial-card{
+    background-color: white;
+    padding: 20px 5px 10px 5px;
+    margin: 10px;
+    min-height: 500px;
+
+}
+.testimonial-card .card-body p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.testimonials-img img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 12px 0px 0px 0px;
 }
