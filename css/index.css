@@ -5,6 +5,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #676767;
+    /* background-color: yellow; */
 }
 h2, h3 {
     font-family: 'Libre Baskerville', serif;
@@ -32,10 +33,18 @@ header {
 }
 
 /* HEADER */
+
 /* .collapse {
     display: flex;
     justify-content: center;
 } */
+
+.navigation {
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
 .free-estimate {
     padding-left: 10%;
     display: flex;
@@ -144,41 +153,8 @@ header {
 .services h2 {
     padding: 0px 0px 40px 0px;
 }
-.wood-species-list{
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.navigation {
-    max-width: 1110px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-.wood-species .card p {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: -17%;
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: 500;
-}
-.wood-species .card {
-    padding: 0px;
-}
-.wood-species .card-birch {
-    filter: grayscale(1)}
-.wood-species .card-oak {
-    filter: sepia(75%);
-}
-.wood-species .card-walnut {
-    filter: sepia(1%);
-}
-.wood-species .card-cherry {
-    filter: saturate(2.4);
-}
+
+/* SECTION SPECIES */
 .wood-species-top {
     display: flex;
     justify-content: center;
@@ -189,6 +165,33 @@ header {
 .wood-species-top {
     margin: 10px;
 }
+.wood-species .card {
+    padding: 0px;
+    margin: 0px;
+}
+.wood-species .card p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -17%;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+.wood-species .card-birch {
+    filter: grayscale(1)
+}
+.wood-species .card-oak {
+    filter: sepia(75%);
+}
+.wood-species .card-walnut {
+    filter: sepia(1%);
+}
+.wood-species .card-cherry {
+    filter: saturate(2.4);
+}
+
+/* SECTION FLOORING OPTIONS */
 .accordion .card .card-header .mb-0 .btn {
     margin: 0px;
     display: flex;
@@ -397,12 +400,11 @@ header {
 /* SECTION TESTIMONIALS */
 .testimonials {
     background-attachment: fixed;
-    background-color: burlywood;
+    background-color: rgb(187, 196, 150);
     background-image: url(../img/block6.png);
     background-size: cover;
     margin-top: 50px;
 }
-
 .testimonials-top .icon-xox{
     margin-top: 40px;
     width: 130px;
@@ -411,22 +413,37 @@ header {
     color: white;
     padding: 10px 0px 50px 0px;
 }
+.testimonials-img img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0px 0px 0px;
+}
 .testimonial-card{
-    background-color: white;
-    padding: 20px 5px 10px 5px;
-    margin: 10px;
-    min-height: 500px;
-
+    padding: 0px;
 }
 .testimonial-card .card-body p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
 }
-.testimonials-img img{
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    margin: 12px 0px 0px 0px;
+.testimonial-card .card-body p:last-child{
+    color: #989592;
+    font-size: 14px;
 }
+.all-testim-cards {
+    margin: 0px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.testimonial-card-in {
+    background-color: white;
+    margin: 10px;
+}
+
+/* SECTION CONTACTS */
