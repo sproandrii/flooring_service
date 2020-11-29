@@ -279,6 +279,14 @@ header {
    display: flex;
    justify-content: center;
 }
+.call-form input::placeholder{
+    color: rgba(68, 66, 64, 0.22);
+    font-weight: 300;
+}
+.call-form textarea::placeholder{
+    color: rgba(68, 66, 64, 0.22);
+    font-weight: 300;
+}
 .form-block {
     min-height: 900px;
     background-color: burlywood;
@@ -469,3 +477,64 @@ header {
 }
 
 /* SECTION CONTACTS */
+.contacts {
+    /* background-image: url(../img/block6.png); */
+    background-color: rgb(241, 247, 217);
+}
+.contacts-info {
+    margin-top: 100px;
+}
+.contacts-working-time {
+    width: 100%;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+}
+.contacts-working-time div {
+    margin: 7px 0px;
+}
+.contacts-working-time div .a-h-c{
+    font-size: 1.4rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+.contacts-and-map {
+    margin: 0px;
+    /* max-height: 300px; */
+}
+.map {
+    width: 100%;
+}
+.contacts-items, p {
+    margin: 0px;
+    color: white;
+}
+.contacts-items h2 {
+    color:  white;
+    margin: 0px;
+    padding: 0px;
+}
+/* .estimation-form {
+    margin: 0px;
+} */
+/* .form-cont {
+    border: 3px solid yellow;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+} */
+/* .map div{
+    margin-top: 0px;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    border: 3px solid red;
+} */
