@@ -188,7 +188,7 @@ header {
     filter: sepia(1%);
 }
 .wood-species .card-cherry {
-    filter: saturate(2.4);
+    filter: saturate(1.9);
 }
 
 /* SECTION FLOORING OPTIONS */
@@ -261,7 +261,7 @@ header {
 }
 /* SECTION CALL-ME-BACK */
 .call-form {
-    min-height: 500px;
+    /* min-height: 500px; */
     background-color: white;
     display: flex;
     justify-content: center;
@@ -289,8 +289,9 @@ header {
 }
 .form-block {
     min-height: 900px;
-    background-color: burlywood;
-    background-image: url(../img/block6.png);
+    background-image: linear-gradient(rgba(118, 129, 116, 0.97), 
+    rgba(118, 129, 116,.97) ), url(../img/block6.png);
+    background-attachment: fixed;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -363,7 +364,12 @@ header {
    font-size: 3.45rem;
    font-weight: 700;
 }
+.all-testim-cards {
+}
+.testimonials {
+    margin-bottom: 200px;
 
+}
 /* SECTION OUR WORKS */
 .our-works {
     background-color: rgb(246, 250, 250);
@@ -407,11 +413,14 @@ header {
 
 /* SECTION TESTIMONIALS */
 .testimonials {
+    background-image: linear-gradient(rgba(118, 129, 116, 0.97), 
+    rgba(118, 129, 116,.97) ), url(../img/block6.png);
     background-attachment: fixed;
-    background-color: rgb(187, 196, 150);
-    background-image: url(../img/block6.png);
+    /* background-color: rgb(187, 196, 150); *7
+    /* background-image: url(../img/block6.png); */
     background-size: cover;
-    margin-top: 50px;
+    margin: 50px 0px;
+    padding: 50px 0px 100px 0px;
 }
 .testimonials-top .icon-xox{
     margin-top: 40px;
@@ -474,19 +483,19 @@ header {
     font-size: 1.5rem;
     color: rgba(80, 80, 80, 0.9);
     font-weight: lighter;
+    margin: 10px 0px 85px 0px
 }
 
 /* SECTION CONTACTS */
 .contacts {
-    /* background-image: url(../img/block6.png); */
-    background-color: rgb(241, 247, 217);
-}
-.contacts-info {
-    margin-top: 100px;
+    background-image: linear-gradient( rgba(118, 117, 116, .3), 
+    rgba(118, 117, 117, 0.9) ), url(../img/block6.png);
+    background-color: rgba(0, 0, 0, 0.72);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .contacts-working-time {
     width: 100%;
-    background-color: seagreen;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -505,12 +514,12 @@ header {
 }
 .contacts-and-map {
     margin: 0px;
-    /* max-height: 300px; */
+    padding: 20px 10px;
 }
 .map {
     width: 100%;
 }
-.contacts-items, p {
+.contacts-items, .contacts-items p{
     margin: 0px;
     color: white;
 }
@@ -519,22 +528,90 @@ header {
     margin: 0px;
     padding: 0px;
 }
-/* .estimation-form {
-    margin: 0px;
-} */
-/* .form-cont {
-    border: 3px solid yellow;
+.form-cont {
+    padding: 5px 10px;
+    max-height: 862px;
+    margin: 0px;    
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
-
-} */
-/* .map div{
+    justify-content: center;
+    align-items: center;
+}
+.estimation-form {
     margin-top: 0px;
-    display: flex;
-    justify-content: stretch;
-    align-items: stretch;
+    padding: 20px;
+    height: 775px
+}
+.estimation-form h2 {
+    margin: 70px;
+}
+.form-out {
     width: 100%;
+    padding: 0px;
+}
+
+/* SECTION FOOTER */
+.footer {
+    background-color: rgba(118, 129, 116, 1);
+}
+.footer .navigation {
     border: 3px solid red;
-} */
+    padding: 0px;
+}
+.footer .navigation .navbar-brand img{
+    padding: 0px;
+    width: 30%;
+}
+.footer .collapse .navbar-nav{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer a {
+    font-size: 16px;
+}
+.footer a:hover {
+    font-size: 16px;
+}
+.rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    /* flex-direction: column; */
+    
+}
+.rights-background {
+    background-image: linear-gradient( rgba(118, 117, 116, .3), 
+    rgba(118, 117, 117, 0.9) ), url(../img/block6.png);
+    background-color: rgba(0, 0, 0, 0.72);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+.footer2 img {
+    padding: 0px;
+}
+.footer-nav div a{
+    color: white;
+    font-size: 14px;
+}
+.footer-nav div a:hover{
+    color: orange;
+}
+.footer-nav {
+    display: flex;
+    justify-content: flex-end;
+}
