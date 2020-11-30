@@ -115,6 +115,9 @@ header {
 }
 
 /* SECTION PRE-VIEW */
+.pre-view {
+    padding-bottom: 60px;
+}
 .pre-view-top {
     margin: auto;
     padding: 30px 0px 40px 0px ;
