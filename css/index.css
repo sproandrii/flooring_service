@@ -7,6 +7,9 @@ body {
     color: #676767;
     /* background-color: yellow; */
 }
+html {
+    scroll-behavior: smooth;
+}
 h2, h3 {
     font-family: 'Libre Baskerville', serif;
     color: rgb(25, 23, 23);
@@ -618,3 +621,37 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+.footer-clocks div{
+    padding-left: 10px;
+}
+/* --JS-- */
+/* .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-back {
+    border: 2px solid green;
+    font-size: 14px;
+    color: orange;
+    background-color: transparent;
+}
+
+.btn-back:hover {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.btn-next {
+    border: 2px solid green;
+    font-size: 14px;
+    color: orange;
+    background-color: transparent;
+}
+
+.btn-next:hover {
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+} */

@@ -11,7 +11,6 @@
 // const clock = document.querySelector('.clock')
 // setInterval( () => clock.innerText = new Date().toLocaleTimeString(), 1000)
 
-
 // const countdown = document.querySelector('.countdown');
 // document.querySelector('.new-year').innerText = 'New Year is comming';
 // document.querySelector('.countdown').innerText = 'Cound Down: '
